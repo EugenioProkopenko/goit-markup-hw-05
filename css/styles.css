@@ -92,14 +92,11 @@ img {
   align-items: center;
   gap: 40px;
 }
-.nav-item {
-}
 
 .nav-link {
   padding-top: 24px;
   padding-bottom: 24px;
   display: block;
-  box-decoration-break: ;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -149,8 +146,7 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
-.container {
-}
+
 .title {
   font-weight: 700;
   font-size: 56px;
@@ -200,9 +196,7 @@ img {
   height: 112px;
   margin-bottom: 8px;
 }
-.icon {
-  padding: ;
-}
+
 .advantages-container {
   margin: 0 auto;
 }
@@ -252,8 +246,7 @@ img {
   color: #434455;
 }
 /*--------------------section3- team----------------*/
-.team-container {
-}
+
 .list-avatar {
   margin: 0;
   padding: 0;
@@ -521,4 +514,82 @@ img {
 .icon-avatar-footer:hover,
 .icon-avatar-footer:focus {
   background-color: #31d0aa;
+}
+/*-------------------------------------------*/
+.modal-overlay {
+  background-color: rgba(46, 47, 66, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+  /*opacity: 0;*/
+  pointer-events: none;
+  transition: opaciti 250ms ease-in-out;
+}
+.modal-overlay.is-open {
+  opacity: 1;
+  pointer-events: auto;
+}
+.modal {
+  background-color: #fcfcfc;
+  padding: 72px 24px 24px 24px;
+  width: 408px;
+  min-height: 584px;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
+    0 2px 1px 0 rgba(0, 0, 0, 0.2);
+  max-width: 408px;
+}
+.clous {
+  display: flex;
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  background-color: #e7e9fc;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  justify-content: center;
+  padding: 0;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.form-label {
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  display: block;
+  margin-bottom: 4px;
+}
+.form-input {
+}
+.btn-submit {
+  /*display: flex;
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  background: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  justify-content: center;
+  align-items: center;*/
+}
+.btn-submit:focus {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
