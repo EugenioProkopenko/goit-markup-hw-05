@@ -519,13 +519,18 @@ img {
   width: 453px;
   position: relative;
 }
+.form-subscribe {
+}
+.label-subscribe {
+  gap: 24px;
+}
 .text-footer-subscribe {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 .subscribe-input {
   border: 1px solid #fff;
@@ -585,9 +590,9 @@ img {
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-overlay.is-open {
-  /*opacity: 1;
+  opacity: 1;
   visibility: visible;
-  pointer-events: auto;*/
+  pointer-events: auto;
 }
 .modal {
   position: absolute;
@@ -628,7 +633,6 @@ img {
 .btn-clous:focus {
   background-color: #404bbf;
   border: none;
-  fill: #ffffff;
 }
 .btn-clous:hover .clous,
 .btn-clous:focus .clous {
