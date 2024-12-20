@@ -520,6 +520,8 @@ img {
   position: relative;
 }
 .form-subscribe {
+  display: flex;
+  gap: 24px;
 }
 .label-subscribe {
   gap: 24px;
