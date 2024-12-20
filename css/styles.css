@@ -600,6 +600,9 @@ img {
 .container-form {
   margin-bottom: 8px;
 }
+.container-form-textarea {
+  margin-bottom: 16px;
+}
 
 .form-label {
   font-weight: 400;
