@@ -576,6 +576,7 @@ img {
 .btn-clous:focus {
   background-color: #404bbf;
   border: none;
+  fill: #ffffff;
 }
 .clous {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -643,7 +644,7 @@ img {
 .container-form {
   margin-bottom: 16px;
 }
-.form-user-comment {
+.form-user-coment {
   width: 100%;
   resize: none;
   min-height: 120px;
@@ -658,14 +659,14 @@ img {
   padding: 8px 16px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.form-user-comet::placeholder {
+.form-user-coment::placeholder {
   font-weight: 400;
   font-size: 12px;
   line-height: 1.16667;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
 }
-.form-user-comet:focus {
+.form-user-coment:focus {
   border: 1px solid #4d5ae5;
 }
 .form-wrapper-checkbox {
@@ -695,7 +696,7 @@ img {
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
-.form-user-checkbox .a {
+.form-user-checkbox a {
   text-decoration: underline;
 }
 .form-btn-sabmit {
@@ -712,4 +713,7 @@ img {
   text-align: center;
   color: #fff;
   border: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
