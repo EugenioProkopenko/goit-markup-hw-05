@@ -653,29 +653,19 @@ img {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-
   background-color: transparent;
   padding: 8px 16px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-<<<<<<< HEAD
 .form-user-coment::placeholder {
-=======
-.form-user-commet::placeholder {
->>>>>>> 13004ebba6d9ab848497a692a10851c455547302
   font-weight: 400;
   font-size: 12px;
   line-height: 1.16667;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
 }
-<<<<<<< HEAD
-.form-user-coment:focus {
-  border: 1px solid #4d5ae5;
-=======
 .form-user-commet:focus-within {
   border-color: #4d5ae5;
->>>>>>> 13004ebba6d9ab848497a692a10851c455547302
 }
 .form-wrapper-checkbox {
   margin-bottom: 24px;
@@ -724,13 +714,9 @@ img {
   text-align: center;
   color: #fff;
   border: none;
-<<<<<<< HEAD
   display: block;
   margin-left: auto;
   margin-right: auto;
-=======
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: block;
->>>>>>> 13004ebba6d9ab848497a692a10851c455547302
 }
